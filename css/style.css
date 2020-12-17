@@ -1,0 +1,492 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Maven Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+/*Unique project css start*/
+.header-section{
+	width: 100%;
+	background: url("../images/bg-banner.png") center top no-repeat;
+	background-size: cover;
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .bg-light{
+	background: transparent!important;
+	padding: 0px 0px;
+}
+.main-menu .bg-light .navbar-brand img{
+	max-width: 120px;
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #511de5;
+    background: url(../images/hv.png) center bottom no-repeat;
+    background-size: contain;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 15px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+    background: url(../images/hv.png) center bottom no-repeat;
+    background-size: contain;
+}
+.main-menu .navbar-light .btn-link{
+	color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 30px;
+    text-decoration: none;
+}
+.main-menu .navbar-light .btn-link:hover{
+	color: #511de5;
+}
+.main-menu .navbar-light .btn-info{
+	padding: 6px 35px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: capitalize;
+	background: linear-gradient(45deg, #511de5, #0b8dfc);
+	border: 0px;
+	border-radius: 25px;
+	transition: 1s;
+}
+.main-menu .navbar-light .btn-info:hover{
+	background: linear-gradient(45deg, #0b8dfc, #511de5);
+	color: #fff;
+}
+
+
+/*banner css start*/
+.banner{
+	width: 100%;
+	padding: 120px 0px;
+	margin: 120px 0px 0px;
+}
+.banner .inner-banner{
+	width: 100%;
+	text-align: right;
+	padding: 80px 0px;
+}
+.banner .inner-banner h1{
+	font-size: 52px;
+	font-weight: 900;
+	line-height: 62px;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #000;
+}
+.banner .inner-banner h1 span{
+	color: #511de5;
+}
+.banner .inner-banner .btn-primary{
+	padding: 8px 35px;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background: #f2f2f2;
+	border: 1px solid #061113;
+	border-radius: 25px;
+	transition: 1s;
+	margin: 20px 0px 0px;
+}
+.banner .inner-banner .btn-primary:hover, .banner .inner-banner .btn-primary:focus{
+	color: #511de5;
+	background: transparent;
+	border: 1px solid #511de5;
+}
+.banner .inner-banner .btn-primary .fa{
+	margin-left: 10px;
+}
+
+/*highlight-section css start*/
+.highlight{
+	width: 100%;
+	padding: 30px 0px;
+	background: url("../images/hl-hv.png") center top no-repeat;
+	background-size: cover;
+}
+.highlight .inner-img{
+	width: 100%;
+	position: relative;
+}
+.highlight .inner-img img {
+    position: absolute;
+    top: -100px;
+    mix-blend-mode: darken;
+}
+.highlight .inner-img h2{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 32px;
+    line-height: 42px;
+    font-weight: 800;
+    padding: 15px 0px;
+}
+
+
+/*feature-section css start*/
+.feature-section{
+	width: 100%;
+	padding: 80px 0px 40px;
+	background: #fefefe;
+} 
+.feature-section .inner-feature{
+	width: 100%;
+	background: url("../images/feature.png") bottom right
+	no-repeat ;
+	background-size: cover;
+    padding: 200px 0px 200px 160px;
+}
+.feature-section .inner-feature h2{
+	margin: -130px 0px 20px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 800;
+}
+.feature-section .inner-feature p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 10px 0px;
+}
+.feature-section .inner-feature p .percent {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 120px;
+    line-height: 130px;
+    font-weight: 800;
+
+    background: -webkit-linear-gradient(135deg, #0b8cfb, #511de5);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.feature-section .inner-feature p .pi{
+	font-family: 'Maven Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 0px 0px 0px 20px;
+    color: #000;
+}
+
+
+/*client-logo section css start*/
+.client-logo{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+
+
+/*quote-section css start*/
+.quote-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/quote-bg.png") center top no-repeat;
+	background-size: cover;
+}
+.quote-section .text{
+	position: relative;
+}
+.quote-section .img img{
+	mix-blend-mode: darken;
+    margin: 100px 0px 0px;
+}
+.quote-section .text{
+	position: absolute;
+    top: 260px;
+    left: 150px;
+    color: #fff;
+}
+.quote-section .text h6{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	font-family: 'Maven Pro', sans-serif;
+}
+.quote-section .text h5{
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 28px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.quote-section .right-text{
+	margin: 200px 0px 0px;
+}
+.quote-section .right-text h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.quote-section .right-text .btn-primary{
+	padding: 8px 35px;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	transition: 1s;
+	margin: 42px 0px 0px;
+}
+.quote-section .right-text .btn-primary:hover, .quote-section .right-text .btn-primary:focus{
+	color: #511de5;
+	background: transparent;
+	border: 1px solid #511de5;
+}
+.quote-section .right-text .btn-primary .fa{
+	margin-left: 10px;
+}
+
+
+/*efficiency-section css start*/
+.efficiency{
+	width: 100%;
+	padding: 80px 0px;
+}
+.efficiency h3{
+	font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 20px 0px 30px;
+}
+.efficiency p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: 'Maven Pro', sans-serif;
+    padding: 10px 0px 30px;
+}
+.efficiency .icon-text{
+	padding: 20px 0px;
+}
+.efficiency .icon-text span{
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 26px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.efficiency .btn-primary{
+	padding: 8px 35px;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background: linear-gradient(45deg, #511de5, #0c8bfb);
+	border: 1px solid #fff;
+	border-radius: 25px;
+	transition: 1s;
+	margin: 42px 0px 0px;
+}
+.efficiency .btn-primary:hover, .efficiency .btn-primary:focus{
+	color: #fff;
+	background: linear-gradient(45deg, #0c8bfb, #511de5);
+	border: 1px solid #511de5;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.efficiency .btn-primary .fa{
+	margin-left: 10px;
+}
+
+
+
+
+
+/*design-feedback css start*/
+
+.design-feedback{
+	width: 100%;
+	padding: 80px 0px;
+	background: #fcfcfc;
+}
+.design-feedback h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    padding: 0px 0px 40px;
+}
+.design-feedback p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 0px 80px;
+}
+.design-feedback .copy-part2{
+	border-right: 1px solid #edc;
+	border-left: 1px solid #edc;
+}
+.design-feedback .copy-part h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 60px;
+    padding: 20px 0px;
+}
+.design-feedback .copy-part p{
+	font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 0px 5px;
+}
+.design-feedback .copy-part2 h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 60px;
+    padding: 5px 0px 20px;
+}
+.design-feedback .copy-part2 p{
+	font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 0px 5px;
+}
+.design-feedback img{
+	mix-blend-mode: darken;
+}
+
+
+
+/*testimonial section css start*/
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+	background: #fff;
+}
+.testimonial h2{
+	font-family: 'Libre Franklin', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    padding: 0px 0px 60px;
+    text-align: center;
+    color: #000;
+}
+.testimonial .client-box{
+	width: 100%;
+	font-family: 'Libre Franklin', sans-serif;
+	text-align: center;
+	background: url("../images/forma.png") center top no-repeat;
+	background-size: cover;
+	padding: 20px 0px;
+	border: 2px solid #f6f6f6;
+	opacity: .5;
+	cursor: pointer;
+}
+.testimonial .client-box h5 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 800;
+    padding: 80px 0px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.testimonial .client-box .client-info img{
+	margin: 20px 0px;
+}
+.testimonial .client-box .client-info h6{
+	font-size: 22px;
+    font-weight: 900;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.testimonial .client-box:hover{
+	opacity: 1;
+	box-shadow: 5px 5px #f6f6f6;
+}
+.testimonial .client-box:hover h5{
+	background: -webkit-linear-gradient(30deg, #511de5, #7fc0f4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+/*footer css start*/
+.footer{
+	width: 100%;
+	background: url("../images/footer-bg.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px 0px;
+}
+.footer .inner-faq{
+	width: 100%;
+	background: #fff;
+	padding: 80px;
+	box-shadow: 1px 4px 5px #ccc;
+}
+.footer .inner-faq .title{
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+}
+.footer .inner-faq .title h2{
+	font-size: 52px;
+	font-weight: 800;
+	line-height: 62px;
+	color: #000;
+	margin-bottom: 25px;
+}
+.footer .inner-faq .card{
+	border: none;
+	background-clip: none;
+
+}
+.footer .inner-faq .card-header{
+	background: transparent;
+	border: none;
+	margin-bottom: 0px;
+	padding: .25rem 1.25rem .75rem 0rem;
+}
+.footer .inner-faq .btn-link{
+	color: #0000ff;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 800;
+}
+.footer .last-part{
+	color: #fff;
+}
+.footer .last-part ul li{
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+	padding: 40px 0px 30px;
+}
+.footer .last-part ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer .last-part ul li a:hover{
+	color: #fb6191;
+}
+.footer .last-part ul li p{
+	margin: 0px 0px 0px 600px;
+}
